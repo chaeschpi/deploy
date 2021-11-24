@@ -1,0 +1,53 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+  "contentVersion": "1.0.0.0",
+  "metadata": {
+    "_generator": {
+      "name": "bicep",
+      "version": "0.4.1008.15138",
+      "templateHash": "17272348917815185525"
+    }
+  },
+  "parameters": {
+    "nameSa": {
+      "type": "string",
+      "metadata": {
+        "description": "Name of Storage Account"
+      }
+    },
+    "sku": {
+      "type": "string",
+      "allowedValues": [
+        "Premium_LRS",
+        "Standard_LRS",
+        "Premium_ZRS"
+      ],
+      "metadata": {
+        "description": "Tier "
+      }
+    },
+    "kind": {
+      "type": "string",
+      "allowedValues": [
+        "BlobStorage",
+        "StorageV2"
+      ],
+      "metadata": {
+        "description": "Was darf es den sein"
+      }
+    }
+  },
+  "functions": [],
+  "resources": [
+    {
+      "type": "Microsoft.Storage/storageAccounts",
+      "apiVersion": "2021-06-01",
+      "name": "[parameters('nameSa')]",
+      "location": "[resourceGroup().location]",
+      "sku": {
+        "name": "[parameters('sku')]"
+      },
+      "kind": "[parameters('kind')]"
+    }
+  ]
+}
