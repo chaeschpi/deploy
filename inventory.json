@@ -8,7 +8,7 @@
         }
     },
     {
-        "name": "Template A",
+        "name": "Template B",
         "URL": "https://github.com/template/XBSA",
         "Parameters": {
           "name": "string",
