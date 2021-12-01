@@ -9,25 +9,24 @@
     },
     {
         "name": "Template B",
-        "URL": "https://github.com/template/XBSA",
+        "URL": "https://github.com/template/XBSffA",
         "Parameters": {
           "name": "string",
           "sku": "string",
-          "tier" : "string"
+          "tier" : "string",
+           "description" : "string
         }
       },
          {
         "name": "Template C",
-        "URL": "https://github.com/template/XBSA",
+        "URL": "https://github.com/template/sdfsXBSA",
         "Parameters": {
-          "name": "string",
-          "sku": "string",
-          "tier" : "string"
+          "name": "string"
         }
       },
         {
         "name": "Template D",
-        "URL": "https://github.com/template/XBSA",
+        "URL": "https://github.com/template/dfsdfsd",
         "Parameters": {
           "name": "string",
           "sku": "string",
