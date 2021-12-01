@@ -14,7 +14,7 @@
           "name": "string",
           "sku": "string",
           "tier" : "string",
-           "description" : "string
+           "description" : "string"
         }
       },
          {
