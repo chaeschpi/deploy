@@ -24,6 +24,15 @@
           "sku": "string",
           "tier" : "string"
         }
+      },
+        {
+        "name": "Template D",
+        "URL": "https://github.com/template/XBSA",
+        "Parameters": {
+          "name": "string",
+          "sku": "string",
+          "tier" : "string"
+        }
       }
 
 ]}
